@@ -87,7 +87,7 @@ function somarcaixa () {
     for (let i = 0; i <caixas.length; i++){
         csum += sum[i];
     }
-    csum += csum*(2/100)
+    //csum += csum*(2/100)
     
     document.getElementById('total').innerHTML = csum;
     
@@ -106,7 +106,7 @@ function somarund () {
         csum += sum[i];
     }
     
-    csum += csum * (2 / 100);
+    //csum += csum * (2 / 100);
     
     document.getElementById('total').innerHTML = csum;
     
